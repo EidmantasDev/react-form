@@ -2,6 +2,14 @@
 
 A small website - working with forms in React
 
+To Try Different Ways of Form handling in the App component between `<main>` tags add one of these components:
+
+```
+<Login /> from RefLogin.jsx (handling form using useRef hook)
+<Login /> from StateLogin.jsx (handling form using useState)
+<Signup /> from Signup.jsx (handling form using FormData)
+```
+
 ## Run Locally
 
 Clone the project
